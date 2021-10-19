@@ -1,0 +1,32 @@
+For every analysis data file, there is one corresponding section of the Data Appendix. Each section is divided into sub-sections, each of which provides information about one of the variables in the analysis data file.
+
+Some of the information is the same for all variables; other parts of the information depend on whether the variable is quantitative or categorical.
+For every variable
+
+    The name of the variable and a complete definition (including as appropriate, for example, coding and/or units of measurement, the wording of a survey question the variable is based on, or adjustments made for inflation or PPP).
+    The name(s) of the original data file from which the variable was extracted, or from which the variables used to construct it were extracted, and the names of the variables extracted from the original data files.
+    The number of observations with valid values for the variable, and the number of observations with missing values.
+
+For quantitative variables
+
+    Basic summary statistics, including the mean, standard deviation, minimum, 25th percentile, median, 75th percentile, and maximum.
+    A histogram.
+
+For categorical variables
+
+    A frequency table.
+    A bar chart illustrating the frequency distribution.
+    
+## 1) "tb-tidy-full" section
+### a) country
+It describes what country the data origins form. Information is coded in iso2 format
+### b) year
+This column says what was the yeas the data was gathered in
+### c) sex
+Describes sex of the recorded person
+### d) age
+Describes age range the infected person was in
+### e) cases
+Says how many cases there were that satisfied all of the previous criteria
+### f) total_annual_cases
+Says how many cases there were in a given year. Other criteria don't matter
